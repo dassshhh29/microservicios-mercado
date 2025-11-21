@@ -1,0 +1,14 @@
+{
+  "name": "microservicio-mercado",
+  "version": "1.0.0",
+  "main": "index-mercado.js",
+  "scripts": {
+    "start": "node index-mercado.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mercadopago": "^1.5.13",
+    "dotenv": "^16.0.3"
+  }
+}
